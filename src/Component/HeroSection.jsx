@@ -13,12 +13,12 @@ const HeroSection = () => {
 
              {/* card */}
 
-            <div className='grid grid-cols-1 md:grid-cols-4 justify-center items-center mt-10'>
+            <div className='grid grid-cols-2 md:grid-cols-4 justify-center items-center mt-10 md:gap-0 gap-3'>
 
                 {/* 1 */}
                 <motion.div
                     style={{ willChange: "transform" }}
-                    initial={{ rotate: 8 }}
+                    initial={{ rotate: 4 }}
                     whileHover={{
                         rotate: 0,
                         scale: 1.08,
@@ -30,18 +30,24 @@ const HeroSection = () => {
                         stiffness: 120,
                         damping: 12
                     }}
-                    className={`w-77.5 h-90 md:h-105 transform-gpu hover:mx-10 rounded-4xl shadow-lg p-6 bg-[#0d8dff]`}
+                    className={`md:w-77.5 w-50 h-64.5 md:h-105 z-10 transform-gpu hover:mx-10 rounded-2xl md:rounded-4xl shadow-lg p-2.5 md:p-6 bg-[#0d8dff] flex flex-col justify-between`}
                 >
-                    <h1 className='font-semibold text-[63px] mb-30 md:mb-55 text-[#161616]'>10M+</h1>
-                    <h3 className='font-semibold text-[23px] text-[#161616]'>Organische views</h3>
+                    <h1 className='font-semibold text-[46px] m:text-[63px] mb-10 md:mb-55 text-[#161616]'>10M+</h1>
+
+              <div>
+
+                    <h3 className='font-semibold text-[15px] md:text-[23px] text-[#161616]'>Organische views</h3>
+
                     <hr />
-                    <p className='text-[13px] text-[#161616] mt-2'>Groei door slimme content</p>
+                    <p className='text-[13px] whitespace-nowrap text-[#161616] mt-2'>Groei door slimme content</p>
+              </div>
+
                 </motion.div>
 
                 {/* 2 */}
                 <motion.div
                     style={{ willChange: "transform" }}
-                    initial={{ rotate: 8 }}
+                    initial={{ rotate: 4 }}
                     whileHover={{
                         rotate: 0,
                         scale: 1.08,
@@ -53,15 +59,16 @@ const HeroSection = () => {
                         stiffness: 120,
                         damping: 12
                     }}
-                    className={`w-77.5 h-90 md:h-105 transform-gpu hover:mx-10 rounded-4xl shadow-lg`}
+                    className={`md:w-77.5 w-50 h-64.5 md:h-105 transform-gpu hover:mx-10 rounded-2xl md:rounded-4xl shadow-lg `}
                 >
-                    <video className='w-full h-full object-fill rounded-4xl' muted autoPlay loop src="https://gethyped.b-cdn.net/Salontopper/Loop%20Salontopper.mp4"></video>
+                    <video className='w-full h-full object-fill rounded-2xl md:rounded-4xl' muted autoPlay loop src="https://gethyped.b-cdn.net/Salontopper/Loop%20Salontopper.mp4"></video>
                 </motion.div>
 
                 {/* 3 */}
+                
                 <motion.div
                     style={{ willChange: "transform" }}
-                    initial={{ rotate: -8 }}
+                    initial={{ rotate: -4 }}
                     whileHover={{
                         rotate: 0,
                         scale: 1.08,
@@ -73,21 +80,26 @@ const HeroSection = () => {
                         stiffness: 120,
                         damping: 12
                     }}
-                    className={`w-77.5 h-90 md:h-105 transform-gpu hover:mx-10 rounded-4xl shadow-lg p-6 bg-[#33c791]`}
+                    className={`md:w-77.5 w-50 h-64.5 md:h-105 z-10 transform-gpu hover:mx-10 rounded-2xl md:rounded-4xl shadow-lg p-2.5 md:p-6 bg-[#33c791] flex flex-col justify-between`}
                 >
-                    <h1 className='font-semibold text-[63px] mb-30 md:mb-55 text-[#161616]'>30+</h1>
-                    <h3 className='font-semibold text-[23px] text-[#161616]'>
+                    <h1 className='font-semibold text-[46px] m:text-[63px] mb-10 md:mb-55 text-[#161616]'>30+</h1>
+
+                    <div>
+
+                    <h3 className='font-semibold  text-[#161616]font-semibold text-[15px] md:text-[23px] text-[#161616]'>
                         30+
                         Merken geholpen
                     </h3>
                     <hr />
-                    <p className='text-[13px] text-[#161616] mt-2'>Van start-up tot multinational</p>
+                    <p className='text-[13px] whitespace-nowrap text-[#161616] mt-2'>Van start-up tot multinational</p>
+                    </div>
+
                 </motion.div>
 
                 {/* 4 */}
                 <motion.div
                     style={{ willChange: "transform" }}
-                    initial={{ rotate: -8 }}
+                    initial={{ rotate: -4 }}
                     whileHover={{
                         rotate: 0,
                         scale: 1.08,
@@ -99,9 +111,9 @@ const HeroSection = () => {
                         stiffness: 120,
                         damping: 12
                     }}
-                    className={`w-77.5 h-90 md:h-105 transform-gpu hover:mx-5 rounded-4xl shadow-lg`}
+                    className={`md:w-77.5 w-50 h-64.5 md:h-105 transform-gpu hover:mx-10 rounded-2xl md:rounded-4xl shadow-lg `}
                 >
-                    <video className='w-full h-full object-fill rounded-4xl' muted autoPlay loop src="https://gethyped.b-cdn.net/Petrol%20Head/petrolhead-loop.mp4"></video>
+                    <video className='w-full h-full object-fill rounded-2xl md:rounded-4xl' muted autoPlay loop src="https://gethyped.b-cdn.net/Petrol%20Head/petrolhead-loop.mp4"></video>
                 </motion.div>
 
             </div>
