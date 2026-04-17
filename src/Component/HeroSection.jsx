@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const HeroSection = () => {
 
     return (
-        <section className='max-w-345 mx-auto md:pt-12.75 px-4.25 md:px-7.5'>
+        <section className='max-w-360 mx-auto md:pt-12.75 px-4.25 md:px-7.5'>
             <h1 className='font-semibold text-[50px] pr-10  w-87.5 md:w-229 md:text-[91px] leading-14.25 md:leading-21.75 mb-5.75 text-[#161616]'>Get Hyped. Get  Noticed. Get Results.</h1>
 
             <p className='font-semibold text-[21px] md:text-[23px] leading-7.5 mb- text-[#161616]'>Klaar met gokken op content <br />

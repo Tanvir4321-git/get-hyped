@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section className='max-w-345 mx-auto pb-12.25 md:pb-18 mt-20 md:mt-30.5 px-4.25 md:px-7.5'>
+        <section className='max-w-360 mx-auto pb-12.25 md:pb-18 mt-20 md:mt-30.5 px-4.25 md:px-7.5'>
             {/* Text */}
 
             <h2 className='font-semibold md:w-287.5 text-[30px] md:text-[57px]  leading-8.75 md:leading-14.25  mb-17 text-[#161616] mx-0 md:ml-27.25 pr-0  md:pr-60'>Wij maken content die opvalt. Die  blijft hangen. Die jouw doelgroep  raakt en jouw merk in beweging  brengt. Snel, krachtig en energiek.</h2>

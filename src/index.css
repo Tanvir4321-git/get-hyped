@@ -61,3 +61,17 @@ body{
 .menu-item:hover .menu-text {
   color: #fff;
 }
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 5s linear infinite;
+}

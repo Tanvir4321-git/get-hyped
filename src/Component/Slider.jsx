@@ -46,7 +46,7 @@ const Slider = () => {
     }, []);
 
     return (
-        <section ref={containerRef} className='max-w-345 mx-auto pt-10.5 md:pt-12 px-4.25 md:px-7.5'>
+        <section ref={containerRef} className='max-w-360 mx-auto pt-10.5 md:pt-12 px-4.25 md:px-7.5'>
 
             {/* slider 1 */}
             {/* desktop */}

@@ -4,6 +4,7 @@ import HeroSection from './Component/HeroSection';
 import About from './Component/About';
 import Slider from './Component/Slider';
 import Content from './Component/Content';
+import BrandHyped from './Component/BrandHyped';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <About></About>
         <Slider></Slider>
         <Content></Content>
+        <BrandHyped></BrandHyped>
       </main>
     </div>
   );
