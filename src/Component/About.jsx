@@ -45,7 +45,7 @@ const About = () => {
         
  
       <div className="w-1/3 md:flex items-center justify-end pr-20 hidden ">
-        <button className="w-10 h-10 rounded-xl border border-black flex items-center justify-center cursor-pointer bg-transparent overflow-hidden group relative">
+        <button className="w-10 h-10 rounded-xl hover:rounded-lg transition-all duration-300 ease-in-out hover:-rotate-1 border border-black flex items-center justify-center cursor-pointer bg-transparent overflow-hidden group relative">
           {/* arrow 1 - default visible */}
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -3,6 +3,7 @@ import Navbar from './Component/Navbar';
 import HeroSection from './Component/HeroSection';
 import About from './Component/About';
 import Slider from './Component/Slider';
+import Content from './Component/Content';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <HeroSection></HeroSection>
         <About></About>
         <Slider></Slider>
+        <Content></Content>
       </main>
     </div>
   );

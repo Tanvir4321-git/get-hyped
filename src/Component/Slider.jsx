@@ -26,7 +26,7 @@ const Slider = () => {
                     pinSpacing: false,
                     scrub: true,
                 });
-                
+
                 if (i < panels.length - 1) {
                     gsap.to(panel, {
                         yPercent: -5,
@@ -49,6 +49,7 @@ const Slider = () => {
         <section ref={containerRef} className='max-w-345 mx-auto pt-10.5 md:pt-12 px-4.25 md:px-7.5'>
 
             {/* slider 1 */}
+            {/* desktop */}
             <div className='desktop-panel hidden mb-10 bg-white h-135.5 p-12 rounded-3xl md:flex items-center justify-between z-1 relative'>
                 <div>
                     <p className='text-[18px] font-medium rounded-sm p-1.5 inline text-[#161616] bg-[#eae4d8] mb-4.5'>Expertise</p>
@@ -71,6 +72,8 @@ const Slider = () => {
                     <video className='w-70 h-95 rotate-3 -mt-10 border-8 border-[#fa5424] object-fill rounded-2xl' muted autoPlay loop src="https://gethyped.b-cdn.net/MD/MD%20Loop%20Schaken.mp4"></video>
                 </div>
             </div>
+
+            {/* mobile */}
 
             <div className='mobile-panel md:hidden mb-6 bg-white  p-4 rounded-2xl block z-1 relative'>
                 <div>
@@ -96,6 +99,8 @@ const Slider = () => {
             </div>
 
             {/* slider 2 */}
+            {/* desktop */}
+
             <div className='desktop-panel hidden mb-10 bg-[#fcb8fa] h-135.5 p-12 rounded-3xl md:flex items-center justify-between z-2 relative'>
                 <div>
                     <p className='text-[18px] font-medium rounded-sm p-1.5 inline text-[#161616] bg-white mb-4.5'>Expertise</p>
@@ -118,6 +123,8 @@ const Slider = () => {
                     <video className='w-70 h-95 rotate-3 -mt-10 border-8 border-white object-fill rounded-2xl' muted autoPlay loop src="https://gethyped.b-cdn.net/Expertises/Loop%20BTS%20comp.mp4"></video>
                 </div>
             </div>
+
+            {/* mobile */}
 
             <div className='mobile-panel md:hidden mb-6 bg-[#fcb8fa]  p-4 rounded-2xl block z-2 relative'>
                 <div>
@@ -143,6 +150,8 @@ const Slider = () => {
             </div>
 
             {/* slider 3 */}
+            {/* desktop */}
+
             <div className='desktop-panel hidden mb-10 bg-[#33c791] h-135.5 p-12 rounded-3xl md:flex items-center justify-between z-3 relative'>
                 <div>
                     <p className='text-[18px] font-medium rounded-sm p-1.5 inline text-[#161616] bg-white mb-4.5'>Expertise</p>
@@ -165,6 +174,8 @@ const Slider = () => {
                     <video className='w-70 h-95 rotate-3 -mt-10 border-8 border-white object-fill rounded-2xl' muted autoPlay loop src="https://gethyped.b-cdn.net/Over%20de%20Top/overdetop-loop.mp4"></video>
                 </div>
             </div>
+
+            {/*mobile */}
 
             <div className='mobile-panel md:hidden mb-6 bg-[#33c791]  p-4 rounded-2xl block z-3 relative'>
                 <div>
@@ -190,6 +201,9 @@ const Slider = () => {
             </div>
 
             {/* slider 4 */}
+          {/* desktop */}
+
+
             <div className='desktop-panel hidden mb-10 bg-[#0d8dff] h-135.5 p-12 rounded-3xl md:flex items-center justify-between z-4 relative'>
                 <div>
                     <p className='text-[18px] font-medium rounded-sm p-1.5 inline text-[#161616] bg-white mb-4.5'>Expertise</p>
@@ -212,6 +226,8 @@ const Slider = () => {
                     <video className='w-70 h-95 rotate-3 -mt-10 border-8 border-white object-fill rounded-2xl' muted autoPlay loop src="https://gethyped.b-cdn.net/Expertises/Data%20comp.mp4"></video>
                 </div>
             </div>
+            
+            {/* mobile */}
 
             <div className='mobile-panel md:hidden mb-6 bg-[#0d8dff]  p-4 rounded-2xl block z-4 relative'>
                 <div>
